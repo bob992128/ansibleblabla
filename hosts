@@ -2,5 +2,5 @@ all:
   vars:
     ansible_connection: local
   hosts:
-    10.134.1[0:1].[1:254]:
+    10.134.1[0:1].[1:30]:
 
