@@ -1,8 +1,6 @@
 ---
 - hosts: ~^10\.134\.10\.[0-9]$
-  gather_facts: false
-  vars:
-    ansible_host: {{ inventory_hostname }} 
+  gather_facts: false 
   tasks:
     - debug:
         msg: "foloseste {{ inventory_hostname }}"
